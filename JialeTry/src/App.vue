@@ -1,18 +1,15 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div class="sm:w-screen sm:h-screen sm:fixed 
+  sm:top-0 sm:left-0 sm:bg-slate-200 sm:flex sm:justify-center sm:items-center">
+
+    <main class="w-full sm:max-w-md sm:border 
+    sm:border-black/10 sm:rounded-lg sm:aspect-[9/18] 
+    sm:bg-white sm:shadow-md sm:overflow-hidden">
+      <RouterView />
+    </main>
+
   </div>
 </template>
 
-<script>
-</script>
-
-
-<style>
-body {
-  background-color: #E8E8E8;
-}
-.left-align {
-  text-align: left;
-}
+<style scoped>
 </style>

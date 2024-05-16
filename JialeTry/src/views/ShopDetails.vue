@@ -1,8 +1,12 @@
 <template>
-  <div class="container mx-auto px-4 mt-5">
-    <Profile />
-    <Timeslot />
-  </div>
+  <main class="w-full bg-white h-full sm:h-auto sm:min-h-0 minh-screen max-h-screen overflow-hidden overflow-y-scroll">
+    <section class="w-full sticky top-0 bg-zinc-100">
+      <Profile />
+    </section>
+    <div class="w-full z-50 relative bg-white">
+      <Timeslot />
+    </div>
+  </main>
 </template>
 
 <script>

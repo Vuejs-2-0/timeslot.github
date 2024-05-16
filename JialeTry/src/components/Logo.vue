@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-2 gap-16" id="wholeContainer">
-    <div class="flex items-center rounded-md shadow-sm justify-items-start max-w-none">
-      <p id="Logo" class="form-input w-full rounded-3xl border-0 p-4 text-xs text-white">timeslot.today</p>
+    <div class="bg-black py-1.5 px-3 rounded-full">
+      <p id="Logo" class="text-white font-bold">timeslot.today</p>
     </div>
     <div class="flex rounded-md shadow-sm justify-items-end">
       <img src="../assets/logo.webp" alt="Logo">
